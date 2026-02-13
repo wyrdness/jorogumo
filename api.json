@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/jorogumo",
     "maintainers": [
       {
@@ -18,394 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "jorogumo",
     "name": "Jorōgumo",
-    "aliases": [
-      {
-        "name": "Jorōgumo",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "binding bride or entangling bride"
-      },
-      {
-        "name": "Jorō-gumo",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "whore spider (alternate interpretation)"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Yokai/Shape-shifter",
+    "subcategory": "Shape-shifter",
     "tags": [
-      "japanese",
-      "yokai",
-      "spider",
-      "shape-shifter",
-      "seductive",
-      "predatory",
-      "supernatural",
-      "dangerous"
+      "folklore",
+      "mythology"
     ],
-    "status": "traditional_folklore",
+    "status": "documented",
     "description": {
-      "summary": "Japanese spider yokai that gains magical powers after 400 years. Shape-shifts into a beautiful woman to lure men, then traps them in silk and devours them.",
-      "full": "The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age. Capable of transforming into a beautiful, seductive woman, the Jorōgumo lures unsuspecting men to isolated locations such as waterfalls, forests, or caves. Once ensnared by her beauty and charm, victims are trapped in her silk threads and devoured. The name translates to 'binding bride' or 'whore spider,' reflecting her deceptive and predatory nature. She may use children as bait, play musical instruments like the biwa, and in some accounts, can breathe fire. While appearing as an attractive woman, her true form is that of a giant spider."
+      "summary": "The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age.",
+      "full": "The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age. Capable of transforming into a beautiful, seductive woman, the Jorōgumo embodies the archetype of predatory deception—irresistible beauty concealing deadly intent. She lures unsuspecting men to isolated locations such as waterfalls, forests, or caves. Once ensnared by her beauty, charm, and enchanting music, victims are trapped in her supernaturally strong silk threads and devoured. The name translates to \\\"binding bride\\\" or \\\"whore spider,\\\" reflecting her deceptive and predatory nature. Unlike simple monsters, the Jorōgumo is cunning and patient. She may use children as bait, play the biwa (Japanese lute) to attract victims, and maintain elaborate deceptions. In some accounts, she can breathe fire. While appearing as an attractive woman, her true form remains that of a giant spider—and those who discover this truth rarely live to tell of it."
     },
     "etymology": {
-      "origin": "Japanese: 絡新婦 or 女郎蜘蛛",
-      "meaning": "Binding bride, entangling bride, or whore spider",
-      "first_use": "Edo period folklore"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Shape-shifter",
-      "variant": "Japanese"
+      "type": "Shape-shifter",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "kitsune",
-        "name": "Kitsune",
-        "relationship": "similar",
-        "description": "Japanese fox yokai that also shape-shifts and deceives"
-      },
-      {
-        "id": "succubus-incubus",
-        "name": "Succubus",
-        "relationship": "similar",
-        "description": "Seductive supernatural being that preys on humans"
-      },
-      {
-        "id": "jorogumo",
-        "name": "Tsuchigumo",
-        "relationship": "related",
-        "description": "Another Japanese spider yokai"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "spider_form": {
-        "size": "Very large, beyond natural spider size",
-        "description": "Giant spider form after 400 years of age"
-      },
-      "human_form": {
-        "height": {
-          "min": 1.5,
-          "max": 1.7,
-          "unit": "meters",
-          "confidence": "medium"
-        },
-        "description": "Beautiful young woman, seductive and attractive"
-      },
-      "coloration": [
-        "As spider: dark, often black or brown",
-        "As woman: pale skin, dark hair typical"
-      ],
-      "features": [
-        {
-          "feature": "Beautiful woman form",
-          "description": "Appears as exceptionally attractive young woman",
-          "frequency": "common"
-        },
-        {
-          "feature": "Giant spider form",
-          "description": "True form as enormous spider",
-          "frequency": "always"
-        },
-        {
-          "feature": "Silk production",
-          "description": "Produces supernaturally strong silk threads",
-          "frequency": "always"
-        },
-        {
-          "feature": "Multiple legs visible",
-          "description": "Sometimes spider legs visible even in human form",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Venomous bite",
-          "description": "Possesses poisonous bite in spider form",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "True form is giant spider. Can shape-shift into beautiful woman. Some accounts suggest hybrid forms or spider features bleeding through disguise."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Transform between giant spider and beautiful woman",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Silk manipulation",
-        "description": "Control and produce supernaturally strong silk threads for trapping",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Seduction",
-        "description": "Irresistibly attractive to men, manipulative charm",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Musical skill",
-        "description": "Can play biwa (Japanese lute) to attract victims",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Child control",
-        "description": "Uses children or child-form to lure victims",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Fire breathing",
-        "description": "Some accounts describe ability to breathe fire",
-        "frequency": "rare",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Poison",
-        "description": "Venomous bite in spider form",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "any",
-      "disposition": "malevolent",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "waterfalls",
-        "forests",
-        "caves",
-        "abandoned buildings",
-        "isolated areas"
-      ],
-      "diet": "Human prey (men primarily)",
-      "patterns": [
-        "Lures men with beauty and charm",
-        "Traps victims in silk",
-        "Devours captured prey",
-        "May use children as bait",
-        "Plays music to attract victims",
-        "Prefers isolated hunting grounds"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Japan, particularly associated with waterfalls, forests, and remote areas.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Japanese mountains",
-        "Forest waterfalls",
-        "Rural areas",
-        "Cave systems"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Edo period",
+        "date": "Unknown",
         "circa": true,
-        "source": "Japanese folklore collections"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Edo period (1603-1868)",
-          "description": "Height of yokai folklore documentation"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Japanese yokai tradition and beliefs about animals gaining supernatural powers with age. Part of broader shape-shifter folklore.",
-      "earliest_accounts": "Edo period folklore and stories",
-      "folklore_connections": "Related to beliefs about yokai, animal transformation, and the danger of deceptive beauty."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Edo period (1603-1868)",
-        "event": "Jorōgumo stories documented",
-        "significance": "Folklore recorded in various collections and tales",
-        "source": "Edo period literature"
-      },
-      {
-        "date": "19th century",
-        "event": "Story compilations",
-        "significance": "Inclusion in major yokai and ghost story collections",
-        "source": "Folklore compilations"
-      },
-      {
-        "date": "20th-21st century",
-        "event": "Modern adaptations",
-        "significance": "Jorōgumo in manga, anime, and contemporary media",
-        "source": "Contemporary Japanese media"
-      }
-    ],
-    "modern_era": "Jorōgumo remain popular in Japanese culture through manga, anime, video games, and contemporary horror. Featured in various yokai-themed media."
+    "timeline": []
   },
-
-  "notable_accounts": [
-    {
-      "name": "Kashikobuchi Waterfall",
-      "location": "Sendai region",
-      "description": "Famous tale of Jorōgumo at waterfall who lured and trapped men",
-      "significance": "One of the most well-known Jorōgumo stories"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    {
-      "name": "The Biwa Player",
-      "description": "Tale of Jorōgumo who played biwa to attract victims",
-      "significance": "Illustrates musical seduction tactic"
-    }
-  ],
-
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Avoiding isolated waterfalls at night",
-        "Wariness of beautiful women in remote areas",
-        "Teaching about dangers of deception",
-        "Moral warnings about lust and greed"
-      ],
-      "stories": [
-        "Men lured by beautiful women at waterfalls",
-        "Discovery of silk-wrapped victims",
-        "Heroes who see through the disguise",
-        "Warnings about accepting invitations from strangers"
-      ],
-      "beliefs": "Jorōgumo represents the danger of deceptive appearances and unchecked lust. Teaches caution and awareness of predatory seduction."
-    },
-    "indigenous": {
-      "cultures": [
-        "Japanese"
-      ],
-      "significance": "Part of yokai tradition teaching moral lessons about deception, desire, and caution. Reflects cultural attitudes about feminine danger and predatory sexuality.",
-      "sensitivity_note": "Part of traditional Japanese cultural heritage and active folklore tradition.",
-      "respect_guidelines": "Recognize as legitimate cultural tradition with deep symbolic meaning. Understand within context of yokai folklore."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Edo period story collections",
-        "Modern yokai encyclopedias",
-        "Contemporary Japanese horror fiction"
-      ],
-      "film_tv": [
-        "Various yokai-themed films",
-        "Anime appearances",
-        "Horror adaptations"
-      ],
-      "games": [
-        "Yokai-themed video games",
-        "Okami video game series",
-        "Various Japanese RPGs"
-      ],
-      "other": [
-        "Manga adaptations",
-        "Traditional art",
-        "Modern illustration"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "protection": {
-    "survival_techniques": [
-      {
-        "method": "Avoid isolated areas",
-        "description": "Stay away from remote waterfalls, caves, and forests, especially alone",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Recognize signs",
-        "description": "Watch for spider features, silk threads, or unnatural beauty in remote areas",
-        "effectiveness": "medium"
-      },
-      {
-        "method": "Kill in spider form",
-        "description": "If discovered in true form, can be killed by conventional means",
-        "effectiveness": "high"
-      },
-      {
-        "method": "Resist seduction",
-        "description": "Maintain awareness and resist supernatural charm",
-        "effectiveness": "low"
-      },
-      {
-        "method": "Travel in groups",
-        "description": "Jorōgumo prefer solitary victims",
-        "effectiveness": "medium"
-      }
-    ]
-  },
-
-  "symbolism": {
-    "meanings": [
-      "Dangerous feminine beauty",
-      "Deceptive appearances",
-      "Predatory sexuality",
-      "Consequences of lust",
-      "Nature's hidden dangers"
-    ]
-  },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Toriyama Sekien",
-        "affiliation": "Edo period artist and scholar",
-        "contribution": "Illustrated and documented various yokai including spider yokai",
-        "period": "18th century"
-      },
-      {
-        "name": "Shigeru Mizuki",
-        "affiliation": "Manga artist and yokai researcher",
-        "contribution": "Modern yokai documentation and popularization",
-        "period": "20th-21st century"
-      }
-    ],
-    "ongoing_studies": "Contemporary study focuses on yokai folklore preservation, cultural symbolism, and comparative mythology."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "mizuki-yokai",
-      "type": "book",
-      "title": "Mizuki Shigeru's Yokai Encyclopedia",
-      "authors": ["Shigeru Mizuki"],
-      "publication": "Various editions",
-      "date": "20th century"
-    },
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "davisson-2017",
-      "type": "book",
-      "title": "Yokai Stories",
-      "authors": ["Zack Davisson"],
-      "publication": "Chin Music Press",
-      "date": "2017",
-      "isbn": "978-1634059220"
-    }
-  ]
+  "sources": []
 }
