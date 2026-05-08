@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/jorogumo",
     "maintainers": [
       {
@@ -16,72 +16,141 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "jorogumo",
     "name": "Jorōgumo",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Shape-shifter",
+    "aliases": [
+      { "name": "絡新婦", "language": "Japanese (kanji)", "meaning": "'Entangling bride / newlywed', the literary spelling" },
+      { "name": "女郎蜘蛛", "language": "Japanese (kanji)", "meaning": "'Whore spider' or 'woman spider', the entomological / vernacular spelling" },
+      { "name": "Jorō spider", "language": "English", "meaning": "Trichonephila clavata, the golden silk orb-weaver — the real spider lending its name to the yokai" }
+    ],
+    "category": "SHAPESHIFTER",
+    "subcategory": "Spider yokai",
     "tags": [
-      "folklore",
-      "mythology"
+      "japanese-folklore",
+      "yokai",
+      "shapeshifter",
+      "spider",
+      "edo-period",
+      "femme-fatale",
+      "joren-falls"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age.",
-      "full": "The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age. Capable of transforming into a beautiful, seductive woman, the Jorōgumo embodies the archetype of predatory deception—irresistible beauty concealing deadly intent. She lures unsuspecting men to isolated locations such as waterfalls, forests, or caves. Once ensnared by her beauty, charm, and enchanting music, victims are trapped in her supernaturally strong silk threads and devoured. The name translates to \\\"binding bride\\\" or \\\"whore spider,\\\" reflecting her deceptive and predatory nature. Unlike simple monsters, the Jorōgumo is cunning and patient. She may use children as bait, play the biwa (Japanese lute) to attract victims, and maintain elaborate deceptions. In some accounts, she can breathe fire. While appearing as an attractive woman, her true form remains that of a giant spider—and those who discover this truth rarely live to tell of it."
+      "summary": "The Jorōgumo is a spider yōkai of Japanese folklore, traditionally said to be a Trichonephila clavata that has lived for centuries and gained the power to take the form of a beautiful woman, luring men to ensnare and devour. Famous as the haunt of Jōren Falls in the Izu Peninsula.",
+      "full": "The Jorōgumo is a class of spider yōkai (妖怪) in Japanese folklore. The kanji 絡新婦 (literally 'entangling bride / newlywed') is the literary form; the homophonous 女郎蜘蛛 ('woman spider' or 'whore spider') is used in everyday and entomological writing for the real-world golden silk orb-weaver Trichonephila (formerly Nephila) clavata. Folk and Edo-period literary sources describe the Jorōgumo as a spider that, having lived for several hundred years, gains supernatural powers including the ability to transform into a beautiful woman, control her silk threads, and (in some accounts) breathe fire and command smaller fire-breathing spiders. She lures men — typically itinerant samurai, woodcutters, or travelers — to isolated waterfalls, mountain pools, or empty houses, plays seductive music (often the biwa), and binds them in supernaturally strong silk before consuming them. The most famous regional legend places her at the Jōren Falls (浄蓮の滝) on the Izu Peninsula in Shizuoka Prefecture, where a woodcutter is said to have escaped after being warned never to speak of what he saw — a vow he eventually breaks at his own peril. Major early literary sources are the Edo-period kaidan collections Tonoigusa (1660, by Ogita Ansei) and Taihei Hyakumonogatari (1732, anonymous), and Toriyama Sekien's illustrated bestiary Gazu Hyakki Yagyō (画図百鬼夜行, 1776), which depicts the Jorōgumo manipulating fire-breathing spiders. The figure remains a fixture of modern Japanese horror, manga (e.g. xxxHolic), anime, and video games."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese; the literary spelling 絡新婦 ('entangling new bride') puns on the homophonous 女郎蜘蛛 ('woman / courtesan spider'), the everyday name of the real Trichonephila clavata orb-weaver",
+      "meaning": "'Entangling bride' (literary) / 'Whore spider' or 'woman spider' (everyday)",
+      "first_use": "Edo-period kaidan literature: Tonoigusa (1660); Taihei Hyakumonogatari (1732); Toriyama Sekien's Gazu Hyakki Yagyō (1776)"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Shape-shifter",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "SHAPESHIFTER",
+      "type": "Yokai (spider)",
+      "subtype": "Animal-yokai with shapeshifting and femme-fatale aspects",
+      "variant": "Japanese"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "tsuchigumo", "name": "Tsuchigumo", "relationship": "related", "description": "Earlier Japanese 'earth spider' yokai of the medieval period" },
+      { "id": "kitsune", "name": "Kitsune", "relationship": "similar", "description": "Fox-yokai shapeshifter of Japanese folklore; shares femme-fatale and seductive-shapeshifter motifs" },
+      { "id": "yuki-onna", "name": "Yuki-onna", "relationship": "similar", "description": "Snow-woman shapeshifter; shares the lure-then-destroy motif" },
+      { "id": "rusalka", "name": "Rusalka", "relationship": "similar", "description": "Slavic water-spirit female shapeshifter who lures men" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["true form: yellow-and-black-banded golden silk orb-weaver (Trichonephila clavata)", "human form: pale-skinned, traditionally beautiful Edo-period woman"],
+      "features": [
+        { "feature": "True spider form", "description": "Body and patterning of a giant Trichonephila clavata, the golden silk orb-weaver, with characteristic yellow and black banding", "frequency": "always" },
+        { "feature": "Beautiful-woman disguise", "description": "Upon reaching several hundred years (commonly given as 400 in modern retellings), the spider gains the ability to transform into a beautiful young woman", "frequency": "always" },
+        { "feature": "Supernaturally strong silk", "description": "Binds victims in silk threads strong enough to restrain humans", "frequency": "always" },
+        { "feature": "Fire-breathing", "description": "In Toriyama Sekien's depiction (Gazu Hyakki Yagyō, 1776), the Jorōgumo manipulates small fire-breathing spiders", "frequency": "occasional" }
+      ],
+      "morphology": "True form: large orb-weaving spider (Araneae: Araneidae). Disguise form: a woman in Edo-period attire."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting (woman form)", "description": "Transformation from spider to beautiful woman", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Silk binding", "description": "Spinning of supernaturally strong silk to immobilize victims", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Music as lure", "description": "Plays the biwa (Japanese lute) or sings to draw victims into isolation", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Fire spiders", "description": "Commands smaller fire-breathing spiders (Toriyama Sekien)", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["waterfalls", "mountain pools", "deep forest", "abandoned houses", "isolated mountain paths"],
+      "diet": "Predatory: lured human victims (especially men)",
+      "patterns": [
+        "Targets isolated male travelers — woodcutters, samurai, monks",
+        "Operates in remote, water-associated locations",
+        "Often issues warnings or extracts secrecy oaths from would-be victims who escape"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Native to Japanese folklore, with regional legends concentrated in central and western Honshu, especially the Izu Peninsula (Shizuoka), Kashikobuchi (Sendai, Miyagi), and the mountain forests of Kyoto and Kii.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Izu Peninsula", "Tōhoku", "Kansai", "Kii Peninsula"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Jōren Falls (浄蓮の滝)",
+        "location": {
+          "description": "Waterfall on the Kano River, Izu Peninsula, Shizuoka Prefecture",
+          "country": "Japan",
+          "region": "Izu Peninsula, Shizuoka",
+          "coordinates": { "latitude": 34.8825, "longitude": 138.9508 }
+        },
+        "peak_period": "Edo period–present (folkloric)",
+        "notes": "Most famous regional legend: a woodcutter caught at the falls is bound by a Jorōgumo's web around his leg and barely escapes; the woodcutter's vow of secrecy and its breaking is the canonical narrative."
+      },
+      {
+        "name": "Kashikobuchi (賢淵)",
+        "location": {
+          "description": "A pool on the Hirose River in Sendai, Miyagi Prefecture",
+          "country": "Japan",
+          "region": "Miyagi"
+        },
+        "peak_period": "Edo period–present (folkloric)",
+        "notes": "Site of a Jorōgumo legend in which the spider is foiled by Buddhist intervention."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1660",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Ogita Ansei, Tonoigusa (1660)"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603–1868)", "description": "Codification of the Jorōgumo legend in kaidan literature and Sekien's bestiary" },
+        { "period": "20th–21st centuries", "description": "Strong revival in manga, anime, video games, and horror cinema" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Edo-period Japanese kaidan (怪談) ghost-story tradition; develops earlier medieval spider-yokai motifs (notably the tsuchigumo) into a femme-fatale shapeshifter.",
+      "earliest_accounts": "Ogita Ansei's Tonoigusa (1660) is among the earliest literary sources; Taihei Hyakumonogatari (1732) and Toriyama Sekien's Gazu Hyakki Yagyō (1776) are the canonical Edo-period sources.",
+      "folklore_connections": "Continuous with the broader Japanese spider-yokai tradition (tsuchigumo) and the regional waterfall- and mountain-spirit traditions of central Honshu."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1660", "event": "Ogita Ansei's kaidan collection Tonoigusa (宿直草) records an early Jorōgumo tale", "significance": "Foundational literary source", "source": "Ogita Ansei, Tonoigusa (1660)" },
+      { "date": "1732", "event": "Anonymous publication of Taihei Hyakumonogatari (太平百物語), containing Jorōgumo stories", "significance": "Continued codification of the figure", "source": "Taihei Hyakumonogatari (1732)" },
+      { "date": "1776", "event": "Toriyama Sekien publishes Gazu Hyakki Yagyō (画図百鬼夜行), illustrating the Jorōgumo with fire-breathing spider attendants", "significance": "Most influential Edo-period image of the Jorōgumo", "source": "Toriyama Sekien (1776)" }
+    ],
+    "modern_era": "The Jorōgumo is a recurring fixture of Japanese horror and fantasy media, appearing in CLAMP's xxxHolic, Inuyasha, Nurarihyon no Mago, the Yo-kai Watch franchise, and numerous video games (Nioh, Onmyoji)."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +161,118 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "jorogumo-evidence-tonoigusa",
+        "type": "kaidan literature",
+        "name": "Tonoigusa (宿直草)",
+        "date": "1660",
+        "description": "Early Edo-period kaidan collection by Ogita Ansei, including a Jorōgumo tale.",
+        "status": "verified",
+        "source": "Ogita Ansei (1660)"
+      },
+      {
+        "id": "jorogumo-evidence-taihei",
+        "type": "kaidan literature",
+        "name": "Taihei Hyakumonogatari (太平百物語)",
+        "date": "1732",
+        "description": "Anonymous Edo-period 'hundred tales' collection containing Jorōgumo stories.",
+        "status": "verified",
+        "source": "Anonymous (1732)"
+      },
+      {
+        "id": "jorogumo-evidence-sekien",
+        "type": "illustrated bestiary",
+        "name": "Gazu Hyakki Yagyō (画図百鬼夜行)",
+        "date": "1776",
+        "description": "Toriyama Sekien's illustrated bestiary, depicting the Jorōgumo as a spider-woman attended by fire-breathing spiders.",
+        "status": "verified",
+        "source": "Toriyama Sekien (1776)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Animal-yokai 'aged-into-power' tradition",
+        "description": "Within Japanese folk thought, animals (foxes, tanuki, cats, spiders) that live to great age may acquire supernatural powers including shapeshifting; the Jorōgumo is a canonical instance for spiders.",
+        "proponents": ["Edo-period yokai literature", "Modern yokai folklorists"],
+        "evidence_cited": ["Continuity with kitsune, tanuki, and bakeneko traditions", "Codification in Sekien's Gazu Hyakki Yagyō"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural-folkloric figure",
+        "description": "The Jorōgumo is straightforwardly understood as a folkloric and literary creation, with the wordplay between 絡新婦 ('entangling bride') and 女郎蜘蛛 ('whore-spider', the real Trichonephila clavata) supplying its imaginative substrate.",
+        "proponents": ["Mainstream Japanese folklore studies"],
+        "evidence_cited": ["Documented Edo-period literary origin", "Word-play etymology"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Edo-period kaidan (ghost-story) tradition",
+        "Japanese yokai bestiary tradition",
+        "Regional waterfall and mountain-pool legends"
+      ],
+      "stories": [
+        "The Jōren Falls woodcutter (Izu Peninsula)",
+        "The Kashikobuchi pool legend (Sendai)",
+        "Toriyama Sekien's depiction of fire-breathing spider attendants"
+      ],
+      "beliefs": "Treated in modern Japan as canonical folklore rather than living belief; remains a beloved figure of regional tourism (Jōren Falls) and popular culture."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Toriyama Sekien — Gazu Hyakki Yagyō (1776)",
+        "CLAMP — xxxHolic (manga, 2003–2011) — features a Jorōgumo character",
+        "Lafcadio Hearn — references in Japanese ghost-tale collections",
+        "Shigeru Mizuki — yokai encyclopedias"
+      ],
+      "film_tv": [
+        "Inuyasha (anime, 2000–2004) — Jorōgumo arcs",
+        "Nurarihyon no Mago (anime, 2010) — Jorōgumo characters",
+        "Yo-kai Watch — Jorōgumo-derived characters"
+      ],
+      "games": [
+        "Nioh (2017) — Joro-gumo boss",
+        "Onmyoji — Jorōgumo character",
+        "Shin Megami Tensei series — recurring demon"
+      ],
+      "music": [],
+      "other": [
+        "Jōren Falls regional tourism and signage",
+        "Halloween / yokai-festival presence in Japan"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period Japan", "contribution": "Illustrated yokai bestiary Gazu Hyakki Yagyō (1776), defining visual standard for the Jorōgumo", "period": "18th century" },
+      { "name": "Shigeru Mizuki", "affiliation": "Independent (manga / folklore)", "contribution": "20th-century yokai encyclopedist; popularized Jorōgumo and other yokai for modern audiences", "period": "1960s–2010s" },
+      { "name": "Michael Dylan Foster", "affiliation": "University of California, Davis (East Asian languages)", "contribution": "Modern English-language yokai scholarship including 'The Book of Yōkai' (2015)", "period": "2000s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Active scholarship in Japanese folklore studies (民俗学), Edo-period literature, and visual culture / yokai studies."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-jorogumo", "type": "website", "title": "Jorōgumo", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jor%C5%8Dgumo", "accessed": "2026-05-07" },
+    { "id": "sekien-1776", "type": "book", "title": "Gazu Hyakki Yagyō (画図百鬼夜行)", "authors": ["Toriyama Sekien"], "date": "1776" },
+    { "id": "tonoigusa-1660", "type": "book", "title": "Tonoigusa (宿直草)", "authors": ["Ogita Ansei"], "date": "1660" },
+    { "id": "taihei-1732", "type": "book", "title": "Taihei Hyakumonogatari (太平百物語)", "date": "1732" },
+    { "id": "foster-2015", "type": "book", "title": "The Book of Yōkai: Mysterious Creatures of Japanese Folklore", "authors": ["Michael Dylan Foster"], "publication": "University of California Press", "date": "2015", "isbn": "978-0520271029" }
+  ]
 }

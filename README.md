@@ -1,311 +1,167 @@
 # Jorōgumo
 
-> *"She is beautiful beyond measure, but beauty is her trap."*
+> The Jorōgumo is a spider yōkai of Japanese folklore, traditionally said to be a Trichonephila clavata that has lived for centuries and gained the power to take the form of a beautiful woman, luring men to ensnare and devour. Famous as the haunt of Jōren Falls in the Izu Peninsula.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional__folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `jorogumo` |
-| **Category** | ENTITY_SPIRIT |
-| **Classification** | Yokai / Shape-shifter |
-| **First Recorded** | Edo period (1603-1868) |
-| **Primary Region** | Japan |
-| **Status** | Traditional folklore |
+| **Category** | SHAPESHIFTER |
+| **Subcategory** | Spider yokai |
+| **First recorded** | 1660 |
+| **Primary range** | Native to Japanese folklore, with regional legends concentrated in central and western Honshu, especially the Izu Peninsula (Shizuoka), Kashikobuchi (Sendai, Miyagi), and the mountain forests of Kyoto and Kii |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The Jorōgumo is a spider yokai from Japanese folklore that gains supernatural powers upon reaching 400 years of age. Capable of transforming into a beautiful, seductive woman, the Jorōgumo embodies the archetype of predatory deception—irresistible beauty concealing deadly intent.
-
-She lures unsuspecting men to isolated locations such as waterfalls, forests, or caves. Once ensnared by her beauty, charm, and enchanting music, victims are trapped in her supernaturally strong silk threads and devoured. The name translates to "binding bride" or "whore spider," reflecting her deceptive and predatory nature.
-
-Unlike simple monsters, the Jorōgumo is cunning and patient. She may use children as bait, play the biwa (Japanese lute) to attract victims, and maintain elaborate deceptions. In some accounts, she can breathe fire. While appearing as an attractive woman, her true form remains that of a giant spider—and those who discover this truth rarely live to tell of it.
+The Jorōgumo is a class of spider yōkai (妖怪) in Japanese folklore. The kanji 絡新婦 (literally 'entangling bride / newlywed') is the literary form; the homophonous 女郎蜘蛛 ('woman spider' or 'whore spider') is used in everyday and entomological writing for the real-world golden silk orb-weaver Trichonephila (formerly Nephila) clavata. Folk and Edo-period literary sources describe the Jorōgumo as a spider that, having lived for several hundred years, gains supernatural powers including the ability to transform into a beautiful woman, control her silk threads, and (in some accounts) breathe fire and command smaller fire-breathing spiders. She lures men — typically itinerant samurai, woodcutters, or travelers — to isolated waterfalls, mountain pools, or empty houses, plays seductive music (often the biwa), and binds them in supernaturally strong silk before consuming them. The most famous regional legend places her at the Jōren Falls (浄蓮の滝) on the Izu Peninsula in Shizuoka Prefecture, where a woodcutter is said to have escaped after being warned never to speak of what he saw — a vow he eventually breaks at his own peril. Major early literary sources are the Edo-period kaidan collections Tonoigusa (1660, by Ogita Ansei) and Taihei Hyakumonogatari (1732, anonymous), and Toriyama Sekien's illustrated bestiary Gazu Hyakki Yagyō (画図百鬼夜行, 1776), which depicts the Jorōgumo manipulating fire-breathing spiders. The figure remains a fixture of modern Japanese horror, manga (e.g. xxxHolic), anime, and video games.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 絡新婦 | Japanese (kanji) | 'Entangling bride / newlywed', the literary spelling |
+| 女郎蜘蛛 | Japanese (kanji) | 'Whore spider' or 'woman spider', the entomological / vernacular spelling |
+| Jorō spider | English | Trichonephila clavata, the golden silk orb-weaver — the real spider lending its name to the yokai |
 
-### Primary Name
-- **Jorōgumo** — Japanese: 絡新婦 or 女郎蜘蛛. Translates to "binding bride," "entangling bride," or "whore spider," reflecting both her seductive nature and predatory behavior.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Jorō-gumo | Japanese | Alternate romanization |
-| 絡新婦 | Japanese (kanji) | Binding bride |
-| 女郎蜘蛛 | Japanese (kanji) | Whore spider |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Shape-shifter
-└── Variant: Japanese
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Kitsune](/kitsune) | Similar | Japanese fox yokai that also shape-shifts and deceives |
-| [Succubus](/succubus-incubus) | Similar | Seductive supernatural being that preys on humans |
-| Tsuchigumo | Related | Another Japanese spider yokai |
+- **Origin**: Japanese; the literary spelling 絡新婦 ('entangling new bride') puns on the homophonous 女郎蜘蛛 ('woman / courtesan spider'), the everyday name of the real Trichonephila clavata orb-weaver
+- **Meaning**: 'Entangling bride' (literary) / 'Whore spider' or 'woman spider' (everyday)
+- **First use**: Edo-period kaidan literature: Tonoigusa (1660); Taihei Hyakumonogatari (1732); Toriyama Sekien's Gazu Hyakki Yagyō (1776)
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Tsuchigumo](../tsuchigumo/) — _related_: Earlier Japanese 'earth spider' yokai of the medieval period
+- [Kitsune](../kitsune/) — _similar_: Fox-yokai shapeshifter of Japanese folklore; shares femme-fatale and seductive-shapeshifter motifs
+- [Yuki-onna](../yuki-onna/) — _similar_: Snow-woman shapeshifter; shares the lure-then-destroy motif
+- [Rusalka](../rusalka/) — _similar_: Slavic water-spirit female shapeshifter who lures men
 
-### Physical Description
+---
+## Physical Description
 
-**Spider Form**:
-- Very large, beyond natural spider size
-- Dark coloration, often black or brown
-- Giant spider form after 400 years of age
+- **Coloration**: true form: yellow-and-black-banded golden silk orb-weaver (Trichonephila clavata), human form: pale-skinned, traditionally beautiful Edo-period woman
+- **Morphology**: True form: large orb-weaving spider (Araneae: Araneidae). Disguise form: a woman in Edo-period attire.
 
-**Human Form**:
-
-| Attribute | Description | Confidence |
-|-----------|-------------|------------|
-| **Height** | 1.5 - 1.7 meters (5 - 5.5 feet) | Medium |
-| **Appearance** | Exceptionally beautiful young woman | High |
-| **Coloration** | Pale skin, typically dark hair | Medium |
-
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Beautiful woman form | Appears as exceptionally attractive young woman | Common |
-| Giant spider form | True form as enormous spider | Always (hidden) |
-| Silk production | Produces supernaturally strong silk threads | Always |
-| Multiple legs visible | Spider legs sometimes visible even in human form | Occasional |
-| Venomous bite | Possesses poisonous bite in spider form | Common |
+|---|---|---|
+| True spider form | Body and patterning of a giant Trichonephila clavata, the golden silk orb-weaver, with characteristic yellow and black banding | always |
+| Beautiful-woman disguise | Upon reaching several hundred years (commonly given as 400 in modern retellings), the spider gains the ability to transform into a beautiful young woman | always |
+| Supernaturally strong silk | Binds victims in silk threads strong enough to restrain humans | always |
+| Fire-breathing | In Toriyama Sekien's depiction (Gazu Hyakki Yagyō, 1776), the Jorōgumo manipulates small fire-breathing spiders | occasional |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Shape-shifting | Transform between giant spider and beautiful woman | Folklore |
-| Silk manipulation | Control and produce supernaturally strong silk for trapping | Folklore |
-| Seduction | Irresistibly attractive to men, manipulative charm | Folklore |
-| Musical skill | Can play biwa (Japanese lute) to attract victims | Folklore |
-| Child control | Uses children or child-form to lure victims | Folklore |
-| Fire breathing | Some accounts describe ability to breathe fire | Folklore (rare) |
-| Poison | Venomous bite in spider form | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Shapeshifting (woman form) | Transformation from spider to beautiful woman | always | folklore |
+| Silk binding | Spinning of supernaturally strong silk to immobilize victims | always | folklore |
+| Music as lure | Plays the biwa (Japanese lute) or sings to draw victims into isolation | common | folklore |
+| Fire spiders | Commands smaller fire-breathing spiders (Toriyama Sekien) | rare | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Any time
-- **Disposition**: Malevolent
-- **Social Structure**: Solitary
-- **Habitat Preference**: Waterfalls, forests, caves, abandoned buildings, isolated areas
-- **Diet**: Human prey (primarily men)
-
-**Hunting Tactics**:
-- Lures men with beauty and charm
-- Traps victims in silk
-- Devours captured prey
-- May use children as bait
-- Plays music to attract victims
-- Prefers isolated hunting grounds
+- **Activity**: variable
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: waterfalls, mountain pools, deep forest, abandoned houses, isolated mountain paths
+- **Diet**: Predatory: lured human victims (especially men)
 
 ---
+## Distribution
 
-## Geographic Distribution
+Native to Japanese folklore, with regional legends concentrated in central and western Honshu, especially the Izu Peninsula (Shizuoka), Kashikobuchi (Sendai, Miyagi), and the mountain forests of Kyoto and Kii.
 
-### Primary Range
+### Hotspots
 
-Throughout Japan, particularly associated with:
-- Waterfalls (especially Kashikobuchi in Sendai region)
-- Remote forest areas
-- Cave systems
-- Abandoned structures in rural areas
-
-### Famous Locations
-
-**Kashikobuchi Waterfall** (Sendai region) — Most famous Jorōgumo location, site of well-known tale of the waterfall spider who lured and trapped men.
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Jōren Falls (浄蓮の滝) | Izu Peninsula, Shizuoka, Japan |  | Edo period–present (folkloric) |
+| Kashikobuchi (賢淵) | Miyagi, Japan |  | Edo period–present (folkloric) |
 
 ---
-
 ## Historical Timeline
 
-### Origins
-
-Japanese yokai tradition and beliefs about animals gaining supernatural powers with age (a common theme in Japanese folklore where animals become yokai after living for centuries).
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| Edo period (1603-1868) | Jorōgumo stories documented | Folklore recorded in various collections and tales |
-| 19th century | Story compilations | Inclusion in major yokai and ghost story collections |
-| 20th-21st century | Modern adaptations | Jorōgumo in manga, anime, and contemporary media |
+|---|---|---|
+| 1660 | Ogita Ansei's kaidan collection Tonoigusa (宿直草) records an early Jorōgumo tale | Foundational literary source |
+| 1732 | Anonymous publication of Taihei Hyakumonogatari (太平百物語), containing Jorōgumo stories | Continued codification of the figure |
+| 1776 | Toriyama Sekien publishes Gazu Hyakki Yagyō (画図百鬼夜行), illustrating the Jorōgumo with fire-breathing spider attendants | Most influential Edo-period image of the Jorōgumo |
 
-### Modern Era
+## Evidence
 
-Jorōgumo remain popular in Japanese culture through manga, anime, video games, and contemporary horror. Featured in various yokai-themed media and continue to represent themes of deceptive beauty and predatory desire.
+### Documentary
 
----
-
-## Notable Accounts
-
-### The Kashikobuchi Waterfall Tale ⭐
-
-One of the most famous Jorōgumo stories involves a waterfall where a beautiful woman would appear, playing the biwa and singing enchanting songs. Men who approached her would be entrapped in silk and dragged beneath the water to be devoured.
-
-**Significance**: Archetypal Jorōgumo story illustrating the waterfall hunting ground and musical lure tactics.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Tonoigusa (宿直草) | 1660 | Early Edo-period kaidan collection by Ogita Ansei, including a Jorōgumo tale. | verified |
+| Taihei Hyakumonogatari (太平百物語) | 1732 | Anonymous Edo-period 'hundred tales' collection containing Jorōgumo stories. | verified |
+| Gazu Hyakki Yagyō (画図百鬼夜行) | 1776 | Toriyama Sekien's illustrated bestiary, depicting the Jorōgumo as a spider-woman attended by fire-breathing spiders. | verified |
 
 ---
+## Theories & Explanations
 
-### The Biwa Player
+### Paranormal / Cryptozoological
 
-Tales of Jorōgumo who played the biwa (Japanese lute) with supernatural skill to attract victims. The music was said to be irresistibly beautiful, drawing men to their doom.
+**Animal-yokai 'aged-into-power' tradition** _(Edo-period yokai literature, Modern yokai folklorists)_
 
-**Significance**: Illustrates the cultural sophistication of the Jorōgumo—not merely a monster, but a cunning predator using art as a weapon.
+Within Japanese folk thought, animals (foxes, tanuki, cats, spiders) that live to great age may acquire supernatural powers including shapeshifting; the Jorōgumo is a canonical instance for spiders.
 
----
+### Skeptical
 
-## Cultural Significance
+**Cultural-folkloric figure** _(Mainstream Japanese folklore studies)_
 
-### Japanese Folklore Tradition
+The Jorōgumo is straightforwardly understood as a folkloric and literary creation, with the wordplay between 絡新婦 ('entangling bride') and 女郎蜘蛛 ('whore-spider', the real Trichonephila clavata) supplying its imaginative substrate.
 
-> ⚠️ **Cultural Context Note**: Part of traditional Japanese cultural heritage and active yokai folklore tradition. Recognize as legitimate cultural tradition with deep symbolic meaning.
 
-**Traditional Warnings**:
-- Avoiding isolated waterfalls at night
-- Wariness of beautiful women in remote areas
-- Teaching about dangers of deception
-- Moral warnings about lust and uncontrolled desire
+## Popular Culture
 
-**Cultural Themes**: Jorōgumo represents the danger of deceptive appearances and unchecked lust. Teaches caution and awareness of predatory seduction. Reflects cultural attitudes about feminine danger and predatory sexuality.
+**Literature**: Toriyama Sekien — Gazu Hyakki Yagyō (1776); CLAMP — xxxHolic (manga, 2003–2011) — features a Jorōgumo character; Lafcadio Hearn — references in Japanese ghost-tale collections; Shigeru Mizuki — yokai encyclopedias
 
-### Symbolism
+**Film / TV**: Inuyasha (anime, 2000–2004) — Jorōgumo arcs; Nurarihyon no Mago (anime, 2010) — Jorōgumo characters; Yo-kai Watch — Jorōgumo-derived characters
 
-The Jorōgumo embodies several important themes:
-- **Dangerous feminine beauty** — Beauty as trap and weapon
-- **Deceptive appearances** — Things are not what they seem
-- **Predatory sexuality** — Sexual attraction as deadly snare
-- **Consequences of lust** — Desire leading to destruction
-- **Nature's hidden dangers** — The wilderness conceals threats
+**Games**: Nioh (2017) — Joro-gumo boss; Onmyoji — Jorōgumo character; Shin Megami Tensei series — recurring demon
 
-### Popular Culture
-
-**Literature**:
-- Edo period story collections
-- Modern yokai encyclopedias
-- Contemporary Japanese horror fiction
-
-**Film/TV**:
-- Various yokai-themed films
-- Anime appearances
-- Horror adaptations
-
-**Games**:
-- Yokai-themed video games
-- Okami video game series
-- Various Japanese RPGs
-
-**Other**:
-- Manga adaptations
-- Traditional and modern illustration
-- Visual art
+**Other**: Jōren Falls regional tourism and signage; Halloween / yokai-festival presence in Japan
 
 ---
+## Research
 
-## Protection & Survival
+### Researchers
 
-### How to Stay Safe
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period Japan | Illustrated yokai bestiary Gazu Hyakki Yagyō (1776), defining visual standard for the Jorōgumo | 18th century |
+| Shigeru Mizuki | Independent (manga / folklore) | 20th-century yokai encyclopedist; popularized Jorōgumo and other yokai for modern audiences | 1960s–2010s |
+| Michael Dylan Foster | University of California, Davis (East Asian languages) | Modern English-language yokai scholarship including 'The Book of Yōkai' (2015) | 2000s–present |
 
-| Method | Description | Effectiveness |
-|--------|-------------|---------------|
-| Avoid isolated areas | Stay away from remote waterfalls, caves, and forests alone | High |
-| Recognize signs | Watch for spider features, silk threads, or unnatural beauty | Medium |
-| Kill in spider form | If discovered in true form, can be killed by conventional means | High |
-| Resist seduction | Maintain awareness and resist supernatural charm | Low (difficult) |
-| Travel in groups | Jorōgumo prefer solitary victims | Medium |
-
-**Warning**: The Jorōgumo's supernatural charm is extremely difficult to resist. Prevention (avoiding isolated areas) is far more effective than trying to resist once encountered.
+Active scholarship in Japanese folklore studies (民俗学), Edo-period literature, and visual culture / yokai studies.
 
 ---
+## Sources
 
-## Research & Investigation
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Notable Researchers
 
-| Name | Affiliation | Contribution |
-|------|-------------|--------------|
-| Toriyama Sekien | Edo period artist and scholar | Illustrated and documented various yokai including spider yokai |
-| Shigeru Mizuki | Manga artist and yokai researcher | Modern yokai documentation and popularization |
+## How to Report a Sighting
 
-### Ongoing Studies
-
-Contemporary study focuses on yokai folklore preservation, cultural symbolism, comparative mythology, and gender themes in Japanese folklore.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const jorogumo = await wyrd.getPhenomenon('jorogumo');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/jorogumo/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Mizuki, S. *Mizuki Shigeru's Yokai Encyclopedia*. Various editions.
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*. University of California Press.
-- Davisson, Z. (2017). *Yokai Stories*. Chin Music Press.
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
